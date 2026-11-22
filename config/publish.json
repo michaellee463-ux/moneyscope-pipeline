@@ -1,0 +1,22 @@
+{
+  "_comment": "The ONLY places the daily task may post. Anything not listed here is off limits. Explorer Man IDs are listed under forbidden and must never be used.",
+  "timezone": "America/New_York",
+  "post_time": "16:00",
+  "tiktok_fallback_time": "17:00",
+  "service": "vidiq",
+  "vidiq": {
+    "youtube_channel_id": null,
+    "tiktok_account_id": null,
+    "youtube": {"privacyStatus": "public", "categoryId": 27},
+    "tiktok": {"privacyLevel": null, "allowComment": null, "musicUsageConfirmed": null, "isAiGenerated": true}
+  },
+  "metricool": {
+    "brand_id": null
+  },
+  "forbidden": {
+    "metricool_brand_ids": [7928588],
+    "youtube_channel_ids": ["UCxg5spwhAkHj7STl7kJswrg"],
+    "tiktok_account_ids": ["_000z5ouJiBGPJMvCV4Ql0dxCZWiOD-MeSE9"],
+    "names": ["Explorerman", "Explorer Man", "Explorerman-s4r", "@explorerman-s4r"]
+  }
+}

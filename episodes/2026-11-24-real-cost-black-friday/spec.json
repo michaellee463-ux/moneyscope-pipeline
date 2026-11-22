@@ -1,0 +1,404 @@
+{
+ "slug": "2026-11-24-real-cost-black-friday",
+ "series": "The Real Cost of…",
+ "topic": "The real cost of a $1,000 Black Friday on a credit card",
+ "post_at_et": "2026-11-24T16:00:00-05:00",
+ "sentences": [
+  {
+   "say": "Americans owe one point three seven trillion dollars in revolving credit, like credit card balances.",
+   "caption": "Americans owe $1.37 TRILLION in revolving credit",
+   "kind": "hook"
+  },
+  {
+   "say": "And Black Friday is days away.",
+   "caption": "And Black Friday is days away."
+  },
+  {
+   "say": "So here is the real cost of a one thousand dollar Black Friday on a credit card.",
+   "caption": "The real cost of a $1,000 Black Friday on a card"
+  },
+  {
+   "say": "The average rate on cards charged interest is twenty-two point three six percent.",
+   "caption": "Average rate on cards charged interest: 22.36%",
+   "kind": "reveal"
+  },
+  {
+   "say": "That is the Federal Reserve's figure for the third quarter of twenty twenty-six.",
+   "caption": "Federal Reserve, Q3 2026"
+  },
+  {
+   "say": "Pay the full statement balance, and you pay zero interest.",
+   "caption": "Pay the full balance: $0 interest"
+  },
+  {
+   "say": "Pay one hundred dollars a month, and it takes twelve months, with one hundred seventeen dollars in interest.",
+   "caption": "$100 a month: 12 months, $117 interest"
+  },
+  {
+   "say": "Pay fifty a month, and it takes twenty-six months, with two hundred sixty-three dollars in interest.",
+   "caption": "$50 a month: 26 months, $263 interest"
+  },
+  {
+   "say": "Pay thirty-five a month, and you are paying for three and a half years.",
+   "caption": "$35 a month: 3.5 YEARS of payments"
+  },
+  {
+   "say": "That one thousand dollar haul ends up costing one thousand four hundred forty-one dollars.",
+   "caption": "$1,000 haul → $1,441 total",
+   "kind": "reveal"
+  },
+  {
+   "say": "What does that mean for this Friday?",
+   "caption": "What does that mean for this Friday?",
+   "kind": "question"
+  },
+  {
+   "say": "The interest alone is forty-four cents on every dollar you charged.",
+   "caption": "44¢ of interest on every $1 you charged",
+   "kind": "reveal"
+  },
+  {
+   "say": "Before you swipe, decide how many months you will really take to pay it off.",
+   "caption": "Before you swipe: how many months will YOU take?"
+  },
+  {
+   "say": "Follow MoneyScope for the money math nobody shows you.",
+   "caption": "Follow MONEYSCOPE for the money math"
+  }
+ ],
+ "scenes": [
+  {
+   "at": 0,
+   "type": "big_number",
+   "count_to": 1.37,
+   "prefix": "$",
+   "suffix": "T",
+   "decimals": 2,
+   "label": "OWED IN REVOLVING CREDIT",
+   "sub": "$1,368.5 billion",
+   "color": "gold",
+   "tag": "Sept 2026 · Federal Reserve G.19"
+  },
+  {
+   "at": 1,
+   "type": "statement",
+   "lines": [
+    "BLACK FRIDAY",
+    "IS DAYS AWAY"
+   ],
+   "color": "red"
+  },
+  {
+   "at": 2,
+   "type": "title",
+   "badge": "THE REAL COST OF…",
+   "lines": [
+    "A $1,000",
+    "BLACK FRIDAY"
+   ],
+   "color": "gold"
+  },
+  {
+   "at": 3,
+   "type": "big_number",
+   "count_to": 22.36,
+   "prefix": "",
+   "suffix": "%",
+   "decimals": 2,
+   "label": "AVERAGE CARD APR",
+   "sub": "accounts charged interest",
+   "color": "red",
+   "tag": "Q3 2026 · Federal Reserve G.19"
+  },
+  {
+   "at": 5,
+   "type": "ladder",
+   "title": "$1,000 ON A CARD AT 22.36% APR",
+   "rows": [
+    {
+     "reveal_at": 5,
+     "label": "PAY IN FULL",
+     "detail": "$0 interest",
+     "value": 1000,
+     "value_text": "$1,000",
+     "color": "green"
+    },
+    {
+     "reveal_at": 6,
+     "label": "$100/MO",
+     "detail": "12 mo · $117 interest",
+     "value": 1117.05,
+     "value_text": "$1,117",
+     "color": "gold"
+    },
+    {
+     "reveal_at": 7,
+     "label": "$50/MO",
+     "detail": "26 mo · $263 interest",
+     "value": 1262.88,
+     "value_text": "$1,263",
+     "color": "gold"
+    },
+    {
+     "reveal_at": 8,
+     "label": "$35/MO",
+     "detail": "42 mo · $441 interest",
+     "value": 1441.06,
+     "value_text": "$1,441",
+     "color": "red"
+    }
+   ],
+   "tag": "Example. Fixed payments, interest = APR/12 monthly. Pay-in-full assumes a grace period."
+  },
+  {
+   "at": 9,
+   "type": "compare",
+   "left": {
+    "label": "YOU BOUGHT",
+    "value": "$1,000",
+    "color": "green"
+   },
+   "right": {
+    "label": "YOU PAID",
+    "value": "$1,441",
+    "color": "red"
+   },
+   "tag": "at $35/month · 22.36% APR"
+  },
+  {
+   "at": 10,
+   "type": "statement",
+   "lines": [
+    "WHAT DOES THAT",
+    "MEAN FOR FRIDAY?"
+   ],
+   "color": "white"
+  },
+  {
+   "at": 11,
+   "type": "big_number",
+   "count_to": 44,
+   "prefix": "",
+   "suffix": "¢",
+   "decimals": 0,
+   "label": "INTEREST PER $1 CHARGED",
+   "sub": "$441 ÷ $1,000",
+   "color": "red",
+   "tag": "$35/month example"
+  },
+  {
+   "at": 12,
+   "type": "statement",
+   "lines": [
+    "HOW MANY",
+    "MONTHS WILL",
+    "YOU TAKE?"
+   ],
+   "color": "gold"
+  },
+  {
+   "at": 13,
+   "type": "end_card",
+   "lines": [
+    "FOLLOW",
+    "MONEYSCOPE"
+   ],
+   "sub": "Money math you can see",
+   "tag": "Not financial advice."
+  }
+ ],
+ "facts": [
+  {
+   "claim": "Revolving consumer credit outstanding, seasonally adjusted, September 2026 (preliminary)",
+   "value": "$1,368.5 billion",
+   "source": "Federal Reserve G.19 Consumer Credit, released Nov 6, 2026",
+   "url": "https://www.federalreserve.gov/releases/g19/current/default.htm"
+  },
+  {
+   "claim": "Commercial bank interest rate on credit card plans, accounts assessed interest, 2026 Q3 (preliminary)",
+   "value": "22.36%",
+   "source": "Federal Reserve G.19 Consumer Credit, released Nov 6, 2026",
+   "url": "https://www.federalreserve.gov/releases/g19/current/default.htm"
+  }
+ ],
+ "math": {
+  "script": "pipeline/moneymath.py",
+  "balance": 1000,
+  "apr": 22.36,
+  "payments": [
+   100,
+   50,
+   35
+  ]
+ },
+ "thumbnail": {
+  "kicker": "THE REAL COST OF A $1,000 BLACK FRIDAY",
+  "left": {
+   "value": "$1,000",
+   "label": "YOU BUY",
+   "color": "green",
+   "bar": 1000
+  },
+  "right": {
+   "value": "$1,441",
+   "label": "YOU PAY",
+   "color": "red",
+   "bar": 1441.06
+  },
+  "footer": "22.36% APR · $35/month · Fed Q3 2026"
+ },
+ "metadata": {
+  "youtube_title": "The Real Cost of a $1,000 Black Friday on a Credit Card",
+  "youtube_tags": [
+   "black friday",
+   "credit card interest",
+   "credit card debt",
+   "minimum payment",
+   "APR",
+   "personal finance",
+   "money tips",
+   "shorts"
+  ],
+  "hashtags": [
+   "#BlackFriday",
+   "#CreditCards",
+   "#PersonalFinance",
+   "#MoneyTips",
+   "#Shorts"
+  ],
+  "description": "What does a $1,000 Black Friday really cost if it goes on a credit card? At the average 22.36% APR on cards charged interest (Federal Reserve, Q3 2026):\n\n• Pay the full statement balance: $0 interest\n• $100 a month: 12 months, $117 interest\n• $50 a month: 26 months, $263 interest\n• $35 a month: 42 months, $441 interest, $1,441 total\n\nThat is 44 cents of interest on every dollar charged.\n\nHow the math works: fixed monthly payments, interest charged at APR/12 on the balance each month. Pay-in-full assumes your card has a grace period.\n\n#BlackFriday #CreditCards #PersonalFinance #MoneyTips #Shorts\n\nSources:\nFederal Reserve, G.19 Consumer Credit, released Nov 6, 2026: revolving credit outstanding $1,368.5 billion (Sept 2026, seasonally adjusted, preliminary); commercial bank credit card plan rate, accounts assessed interest, 22.36% (Q3 2026, preliminary). https://www.federalreserve.gov/releases/g19/current/default.htm\n\nNot financial advice.",
+  "tiktok_caption": "A $1,000 Black Friday on a credit card can cost $1,441. Average APR on cards charged interest: 22.36% (Fed, Q3 2026). How many months will YOU take to pay it off? #BlackFriday #creditcard #personalfinance #moneytok #moneytips\n\nSource: Federal Reserve G.19 Consumer Credit, Nov 6, 2026.\n\nNot financial advice."
+ },
+ "checks": [
+  {
+   "expr": "round(1368.5/1000, 2)",
+   "expect": 1.37,
+   "why": "$1,368.5B in trillions"
+  },
+  {
+   "expr": "payoff(1000, 22.36, 100)['months']",
+   "expect": 12,
+   "why": "months at $100/mo"
+  },
+  {
+   "expr": "payoff(1000, 22.36, 50)['months']",
+   "expect": 26,
+   "why": "months at $50/mo"
+  },
+  {
+   "expr": "payoff(1000, 22.36, 35)['months']",
+   "expect": 42,
+   "why": "months at $35/mo"
+  },
+  {
+   "expr": "round(payoff(1000, 22.36, 100)['interest'])",
+   "expect": 117,
+   "why": "interest at $100/mo"
+  },
+  {
+   "expr": "round(payoff(1000, 22.36, 50)['interest'])",
+   "expect": 263,
+   "why": "interest at $50/mo"
+  },
+  {
+   "expr": "round(payoff(1000, 22.36, 35)['interest'])",
+   "expect": 441,
+   "why": "interest at $35/mo"
+  },
+  {
+   "expr": "round(payoff(1000, 22.36, 100)['total_paid'])",
+   "expect": 1117,
+   "why": "total paid at $100/mo"
+  },
+  {
+   "expr": "round(payoff(1000, 22.36, 50)['total_paid'])",
+   "expect": 1263,
+   "why": "total paid at $50/mo"
+  },
+  {
+   "expr": "round(payoff(1000, 22.36, 35)['total_paid'])",
+   "expect": 1441,
+   "why": "total paid at $35/mo"
+  },
+  {
+   "expr": "round(payoff(1000, 22.36, 100)['total_paid'], 2)",
+   "expect": 1117.05,
+   "why": "bar length"
+  },
+  {
+   "expr": "round(payoff(1000, 22.36, 50)['total_paid'], 2)",
+   "expect": 1262.88,
+   "why": "bar length"
+  },
+  {
+   "expr": "round(payoff(1000, 22.36, 35)['total_paid'], 2)",
+   "expect": 1441.06,
+   "why": "bar length"
+  },
+  {
+   "expr": "payoff(1000, 22.36, 35)['months'] / 12",
+   "expect": 3.5,
+   "why": "42 months in years"
+  },
+  {
+   "expr": "round(payoff(1000, 22.36, 35)['interest'] / 1000 * 100)",
+   "expect": 44,
+   "why": "cents of interest per $1 charged"
+  },
+  {
+   "expr": "round(payoff(1000, 22.36, 35)['interest'])",
+   "expect": 441,
+   "why": "shown as $441 / $1,000"
+  }
+ ],
+ "allowed_numbers": [
+  {
+   "n": 1000,
+   "why": "example purchase amount"
+  },
+  {
+   "n": 100,
+   "why": "example payment"
+  },
+  {
+   "n": 50,
+   "why": "example payment"
+  },
+  {
+   "n": 35,
+   "why": "example payment"
+  },
+  {
+   "n": 0,
+   "why": "pay in full with grace period: no interest"
+  },
+  {
+   "n": 12,
+   "why": "APR/12 monthly rate"
+  },
+  {
+   "n": 1,
+   "why": "per $1"
+  },
+  {
+   "n": 3,
+   "why": "Q3"
+  },
+  {
+   "n": 2026,
+   "why": "data year"
+  },
+  {
+   "n": 19,
+   "why": "G.19 release name"
+  },
+  {
+   "n": 6,
+   "why": "release date Nov 6"
+  },
+  {
+   "n": 22.36,
+   "why": "sourced APR (facts)"
+  }
+ ]
+}
