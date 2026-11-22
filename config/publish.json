@@ -5,7 +5,9 @@
   "tiktok_fallback_time": "17:00",
   "service": "vidiq",
   "vidiq": {
-    "youtube_channel_id": null,
+    "_account": "Claude's vidIQ connector must be signed in as the vidIQ account michaellee463@gmail.com (it holds MoneyScope only).",
+    "youtube_channel_id": "UCBFUkbS5HzFmqqbdLAbw3Qw",
+    "youtube_handle": "@moneyscope-g2d",
     "tiktok_account_id": null,
     "youtube": {"privacyStatus": "public", "categoryId": 27},
     "tiktok": {"privacyLevel": null, "allowComment": null, "musicUsageConfirmed": null, "isAiGenerated": true}
