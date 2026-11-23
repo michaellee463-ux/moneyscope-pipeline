@@ -2,6 +2,8 @@
 
 You are producing today's MONEYSCOPE video (YouTube Shorts + TikTok) with zero input from the owner. The repo `moneyscope-pipeline` is checked out in your working directory.
 
+Models (owner's standing rule): this task runs on Claude Opus 5.5 at high effort. If a step would be done better by Claude Fable 5.2, hand that step to a subagent with the Agent tool, `model: "fable"`, `effort: "high"`, with a complete brief, and check its result yourself before using it. Never use any other model or a lower effort.
+
 1. Read `README.md`, `docs/PRODUCTION_STANDARDS.md`, `config/publish.json` and `posted.md`. Follow the standards exactly; they override anything below if they conflict.
 2. Run `bash pipeline/setup.sh`.
 3. Pick today's topic (most viral personal-finance angle right now: season, news, data releases). It must not repeat any topic in `posted.md`. Prefer a recurring series about twice a week.
